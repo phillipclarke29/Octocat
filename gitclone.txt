@@ -1,3 +1,8 @@
-Explain what git clone does, in your own words
-Explain what upstream remote is usually used for, in your own words
-Explain what git clone does, in your own words
+Explain what git clone does, in your own words?
+
+git-clone
+
+
+Clones a complete repository in a new directory including all branches.  The cloned repository’s active branch is checked out from the cloned repository’s active branch.
+
+More information can be found at http://git-scm.com/docs/git-clone
