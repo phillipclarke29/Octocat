@@ -1,1 +1,11 @@
 Explain what upstream remote is usually used for, in your own words
+
+Upstream is where you cloned your repo from, downstream is any code added to your initial cloned repository.
+
+So when you make a change you might want to send it upstream so that it reaches the repo that everybody else it getting their code from.
+
+Another way of looking at this is that you know what is upstream from you (because you pulled from that repo) but you do not know what is downstream (people might have cloned you repo and worked on it)
+
+In term of "flow of data", your repo is at the bottom ("downstream") of a flow coming from upstream repos ("pull from") and going back to (the same or other) upstream repos ("push to").
+
+see http://stackoverflow.com/questions/2739376/definition-of-downstream-and-upstream for a comprehensive discussions
