@@ -1,1 +1,39 @@
 Explain what a branch is, in your own words
+
+A branch is an independent line of code development for a feature or new function.
+
+The branch represents a fork in the project which results in a line of code development.
+
+You can list all the branches in your repo with
+
+Git branch
+
+It is important to remember that when you create a new branch with 
+
+git branch <branchname> 
+
+you do not checkout that branch
+
+You can use
+
+git checkout -b <new branch>
+
+to create and checkout a new branch at the same time
+
+To switch branches use
+
+git checkout <branch>
+
+To delete a branch use 
+
+git branch -d <branch>
+
+which will warn you a branch has not been merged, and
+
+git branch -D <branch> 
+
+which overrides the warning
+
+
+
+
